@@ -1,0 +1,10 @@
+.hills {
+  height: 256px;
+  width: 100%;
+  background: url(images/hills.png) no-repeat;
+  -webkit-background-size: cover
+}
+
+.trilobite {
+  max-height:48px;
+}
