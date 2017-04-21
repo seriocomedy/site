@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Brython Page</title>
+    <script src="/shared/bower_components/brython/www/src/brython.js" charset="utf-8"></script>
+  </head>
+  <body onload="brython()">
+    <section id="introduction">
+      <markdown>
+        # Introduction
+        What if I was to tell you that everything on this page was written in Python and not Javascript. You would most likely think I would be crazy. But I am not, everything on this page (except for the Python compiler) was written in Python.
+      </markdown>
+    </section>
+    <section id="responsive-dom">
+      <markdown>
+        # Responsive DOM
+        Enter your name in the box below
+      </markdown>
+      <input id="responsive-dom-input" type="text">
+      <h1>Hello there, <span id="responsive-dom-output"></span>!</h1>
+    </section>
+
+    <script type="text/python" src="scripts/main.py" charset="utf-8"></script>
+  </body>
+</html>

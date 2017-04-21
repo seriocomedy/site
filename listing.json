@@ -1,0 +1,11 @@
+{
+  "title": "Carver's Website",
+  "description": "Welcome to my website!",
+  "pages": [
+    {"id": "school-projects", "title": "School Projects", "description": "An archive of projects I made for school.", "image": "school-project", "url": "/school"},
+    {"id": "personal-projects", "title": "Personal Projects", "description": "An archive of projects I made for fun.", "image": "code-project", "url": "/projects"},
+    {"id": "chromebook", "title": "Chromebook Stuff", "description": "Information and downloads for chromebooks.", "image": "chromebook", "url": "/chromebook"},
+    {"id": "distros", "title": "Linux distros", "description": "Download linux distributions from my site.", "image": "linux", "url": "/distros"},
+    {"id": "aclevo", "title": "Aclevo", "description": "Visit Aclevo, the organization I help out at.", "image": "aclevo", "url": "https://aclevo.xyz"}
+  ]
+}

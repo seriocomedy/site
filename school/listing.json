@@ -1,0 +1,8 @@
+{
+  "title": "School Years",
+  "description": "Select a grade to see a list of classes classes for that year.",
+  "pages": [
+    {"id": "back", "title": "Go Back", "description": "Go back to the previous page", "image": "back", "url": ".."},
+    {"id": "grade-8", "title": "8th Grade", "description": "2016-2017", "image": "school-grade-8", "url": "8"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "title": "8th Grade Science",
+  "description": "Select a project to view that project.",
+  "pages": [
+    {"id": "back", "title": "Go Back", "description": "Go back to the previous page", "image": "back", "url": ".."},
+    {"id": "brochure", "title": "Brochure", "description": "Cambrian period brochure", "image": "trilobite", "url": "brochure"}
+  ]
+}

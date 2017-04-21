@@ -1,0 +1,17 @@
+{
+  "name": "brython",
+  "version": "3.3.1",
+  "dependencies": {},
+  "devDependencies": {},
+  "homepage": "https://github.com/brython-dev/brython",
+  "_release": "3.3.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.1",
+    "commit": "143d24691b4d545d993e80705583f5b17b8c90c8"
+  },
+  "_source": "https://github.com/brython-dev/brython.git",
+  "_target": "^3.3.1",
+  "_originalSource": "brython",
+  "_direct": true
+}

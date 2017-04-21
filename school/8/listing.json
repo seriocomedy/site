@@ -1,0 +1,8 @@
+{
+  "title": "8th Grade",
+  "description": "Select a class to see the projects for that class.",
+  "pages": [
+    {"id": "back", "title": "Go Back", "description": "Go back to the previous page", "image": "back", "url": ".."},
+    {"id": "science", "title": "Science", "description": "8th Grade Science", "image": "school-class-science", "url": "science"}
+  ]
+}

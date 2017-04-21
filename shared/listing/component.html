@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="text-center">
+        <h1 class="display-3">{{title}}</h1>
+        <p class="lead">{{description}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card col-md-4" style="width: 20rem" ng-repeat="page in pages" id="{{page.id}}">
+      <!--TODO: Add images -->
+      <!--<img class="card-img-top" ng-src="/shared/listing/images/{{page.image}}.png" alt="image: {{page.image}}">-->
+      <a class="card-link" href="{{page.url}}">
+        <div class="card-block">
+          <h4 class="card-title">{{page.title}}</h4>
+          <p class="card-text">{{page.description}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">&copy; 2017 Carver Harrison. <a href="/wappalizer/#{{window.location.pathname}}">Frameworks Used</a></span>
+  </div>
+</footer>
